@@ -1,0 +1,20 @@
+{
+  "name": "evetro-api-tester",
+  "version": "1.0.0",
+  "description": "An example integration against Evetro's Test API. Extends GraphiQL, but allows injection of bearer tokens in the header object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evetro/evetro-api-tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evetro/evetro-api-tester/issues"
+  },
+  "homepage": "https://github.com/Evetro/evetro-api-tester#readme"
+}
