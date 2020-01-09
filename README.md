@@ -3,6 +3,7 @@ An example integration against Evetro's Test API. Extends GraphiQL, but allows i
 
 ## ToDo
 * Source code for retrieving and setting the bearer token
+* Source code for storing the bearer token for efficient reuse
 * Source code which renders the web page and runs the node server
 * ReactJS source code
 

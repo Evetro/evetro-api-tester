@@ -14,11 +14,20 @@
   "engine": {
     "node": ">=10.0.0"
   },
-  "keywords": ["evetro", "graphiql", "api", "queries"],
+  "keywords": [
+    "evetro",
+    "graphiql",
+    "api",
+    "queries"
+  ],
   "author": "Evetro",
   "license": "BSD 3-Clause",
   "bugs": {
     "url": "https://github.com/Evetro/evetro-api-tester/issues"
   },
-  "homepage": "https://github.com/Evetro/evetro-api-tester#readme"
+  "homepage": "https://github.com/Evetro/evetro-api-tester#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
 }
