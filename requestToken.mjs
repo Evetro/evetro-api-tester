@@ -18,5 +18,5 @@ module.exports = processEnv => fetch(
       audience: processEnv.EVETRO_API_URL,
     }),
   },
-).then(fetchResponse => fetchResponse.json());
+).then(fetchResponse => fetchResponse.json())
 

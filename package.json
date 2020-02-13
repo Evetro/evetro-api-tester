@@ -5,7 +5,7 @@
   "description": "An example integration against Evetro's Test API. Extends GraphiQL, but allows injection of bearer tokens in the header object.",
   "main": "index.js",
   "scripts": {
-    "runServer": "node --experimental-modules -r dotenv/config ssr/promiseBearerToken.mjs",
+    "start": "node --experimental-modules -r dotenv/config server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
