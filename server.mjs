@@ -42,4 +42,3 @@ promiseBearerToken(process.env, process.argsv.slice(2)[0]).then(({ access_token:
 process.on('SIGINT', () => {
   process.exit(0)
 })
-
