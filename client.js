@@ -14,5 +14,4 @@ delete window.__PROPS__
  * react comments to identify elements and more.
  */
 
-hydrate(<App info={info} />, document.querySelector('#app'))
-
+hydrate(React.createElement(App, { info }, null), document.querySelector('#app'))

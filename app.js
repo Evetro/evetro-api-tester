@@ -12,5 +12,5 @@ const executeQuery = (apiUrl, token) => params => fetch(
 
 export default function App({info}){
   const { apiUrl, bearerToken } = info
-  return <GraphiQL fetcher={executeQuery(apiUrl, bearerToken)} />
+  return React.createElement(GraphiQL, { fetcher: executeQuery(apiUrl, bearerToken) }, null)
 }

@@ -5,7 +5,7 @@ import http from 'http'
 import App from './app'
 import promiseBearerToken from './promiseBearerToken'
 
-const render = info => renderToString(<App info={info} />)
+const render = info => renderToString(React.createElement(App, { info }, null))
 
 const template = (title, props, content) => `<!DOCTYPE html>
 <html lang="en">
