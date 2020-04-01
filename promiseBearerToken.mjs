@@ -1,6 +1,7 @@
-import requestToken from './requestToken'
+import requestToken from './requestToken.mjs'
 
-module.exports = function promiseBearerToken(processEnv, argToken) {
+export default function promiseBearerToken(processEnv, argToken) {
+  console.log(argToken)
   if (typeof argToken === 'string') {
     return Promise.resolve({access_token: argToken})
   }

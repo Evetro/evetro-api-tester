@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 /** @returns {Object} the response body, which contains
 the properties 'access_token', 'scope', 'token_type'
 and 'expires_in' */
-module.exports = processEnv => fetch(
+const getToken = processEnv => fetch(
   processEnv.EVETRO_TOKEN_URL,
   {
     method: 'POST',
@@ -20,3 +20,4 @@ module.exports = processEnv => fetch(
   },
 ).then(fetchResponse => fetchResponse.json())
 
+export default getToken;
