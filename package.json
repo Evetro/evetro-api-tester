@@ -5,15 +5,15 @@
   "description": "An example integration against Evetro's Test API. Extends GraphiQL, but allows injection of bearer tokens in the header object.",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-modules -r dotenv/config server.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r dotenv/config server.mjs",
+    "test": "echo \"test\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Evetro/evetro-api-tester.git"
   },
   "engine": {
-    "node": ">=10.0.0"
+    "node": ">=14.14.0"
   },
   "keywords": [
     "evetro",
